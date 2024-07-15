@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-::root {
+:root {
   --first-color: #0c67ff;
   --second-color: #379683;
+  --hover-color: #055de1;
+  --second-hover-color: #cfdaeb;
 }
 
 body {

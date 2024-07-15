@@ -36,4 +36,75 @@
 .Link_header_photo {
   width: 12%;
   height: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.text_for_link {
+  position: relative;
+  margin-top: 15px;
+  background-color: #333333;
+
+  color: white;
+  /* width: 120px; */
+  border-radius: 5px;
+  min-height: 30px;
+}
+
+.text_for_link.hidden {
+  display: none;
+}
+
+.photo_header:hover + .text_for_link {
+  display: block;
+}
+
+.text_for_text {
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.reg_or_profile {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.button_for_reg {
+  border: none;
+  background-color: var(--first-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first {
+  color: white;
+  transition: 0.2s ease;
+}
+
+.second {
+  background-color: #e4efff;
+  color: var(--first-color);
+  transition: 0.2s ease;
+}
+
+.p_for_reg {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.first:hover {
+  background-color: var(--hover-color);
+}
+
+.second:hover {
+  background-color: var(--second-hover-color);
 }
