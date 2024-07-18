@@ -7,8 +7,8 @@ import RegOrProfile from './RegOrProfile';
 export default function Header() {
   const header: HeaderInterface = {
     messages: 'Сообщения',
-    likes: 'Лайки',
-    saves: 'Сохранения',
+    likes: 'Избранное',
+    saves: 'Сохраненное',
     notifications: 'Уведомления',
   };
 
