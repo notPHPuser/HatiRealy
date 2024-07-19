@@ -1,6 +1,5 @@
 .main {
   height: 490px;
-  width: 100%;
   background-image: url('../../../public/main.png');
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
@@ -26,9 +25,26 @@
   position: relative;
   top: 30px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .country {
   font-size: 15px;
   margin-left: 10px;
+}
+
+.button_country:hover {
+  background-color: rgba(207, 218, 235, 0.4);
+}
+
+.main_h1 {
+  color: white;
+}
+
+.choice_for_main {
+  position: relative;
+  /* border: 1px solid red; */
+  width: 75%;
+  left: 13%;
+  top: 50px;
 }

@@ -11,6 +11,9 @@ export default function Main() {
             <Send size={20} color='white' />
             <span className={styles.country}>Москва</span>
           </button>
+          <div className={styles.choice_for_main}>
+            <h1 className={styles.main_h1}>Если недвижимость, то Хаты</h1>
+          </div>
         </div>
       </div>
     </>
