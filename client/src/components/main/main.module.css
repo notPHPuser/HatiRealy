@@ -48,3 +48,62 @@
   left: 13%;
   top: 50px;
 }
+
+.towns {
+  position: fixed;
+  width: 73%;
+  height: 63vh;
+  background-color: white;
+  z-index: 5;
+}
+
+.top_div_towns {
+  width: 100%;
+  height: 18%;
+  /* background-color: red; */
+  border-bottom: 1px solid grey;
+  text-align: center;
+  align-items: center;
+}
+
+.p_towns {
+  font-size: large;
+  position: relative;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.choice_towns {
+  width: 30%;
+  height: 25%;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid grey;
+  transition: 0.3s ease-in-out;
+}
+
+.choice_towns:hover {
+  border: 1px solid black;
+}
+
+.choice_towns:active {
+  border-color: var(--hover-color);
+  box-shadow: 0 0 0 0.5px var(--hover-color);
+}
+.choice_towns:focus {
+  border-color: var(--hover-color);
+  box-shadow: 0 0 0 0.5px var(--hover-color);
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.all_towns {
+  height: 82%;
+  width: 100%;
+}
